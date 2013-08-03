@@ -19,7 +19,7 @@
 
 		/* Add initializers here */
 		App.addInitializer( function () {
-			document.body.innerHTML = welcomeTmpl({ success: "CONGRATS!" });
+			document.body.innerHTML = welcomeTmpl({ success: "Ola rapaces!" });
 			Communicator.mediator.trigger("APP:START");
 		});
 
